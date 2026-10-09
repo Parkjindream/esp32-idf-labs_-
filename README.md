@@ -92,7 +92,7 @@ void app_main(void) {
 
 ```
 
-## 🟢 module 2: 2C LCD Display
+## 🟢 module 2: I2C LCD Display
 
 **รูปภาพผลลัพธ์การทำงาน โมดูล 2:**
 ![ผลลัพธ์โมดูล 2](./idf_img/module%202.%202C%20LCD%20Display.png)
