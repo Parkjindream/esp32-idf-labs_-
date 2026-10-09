@@ -354,7 +354,7 @@ void app_main(void)
 }
 ```
 
-## 🟠 module 4 : _WiFi_MQTT_Sensor_LCD
+## 🟠 module 4 : WiFi_MQTT_Sensor_LCD
 
 
 **รูปภาพผลลัพธ์การทำงาน โมดูล 4:**
