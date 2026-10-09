@@ -14,7 +14,7 @@
 ศึกษากระบวนการเริ่มต้นระบบ Wi-Fi ของ ESP32 ในโหมด Station (STA) การใช้งานหน่วยความจำ NVS (Non-Volatile Storage) สำหรับเก็บค่าสอบเทียบ RF, การตั้งค่าระบบเครือข่ายด้วย `esp_netif`, การจัดการ Event Loop แบบ Asynchronous และการใช้ FreeRTOS Event Groups ในการซิงโครไนซ์การรอรับ IP Address จาก Wokwi-GUEST AP
 
 **รูปภาพผลลัพธ์การทำงาน โมดูล 1:**
-![ผลลัพธ์โมดูล 1](./module%201%20Wi-Fi%20Connection%20.png)
+![ผลลัพธ์โมดูล 1](./idf_img/module%201%20Wi-Fi%20Connection%20.png)
 
 **ซอร์สโค้ดหลัก (main/main.c) โมดูล 1:**
 ```c
@@ -95,7 +95,7 @@ void app_main(void) {
 ## 🟢 module 2: 2C LCD Display
 
 **รูปภาพผลลัพธ์การทำงาน โมดูล 2:**
-![ผลลัพธ์โมดูล 2](./module%202.%202C%20LCD%20Display.png)
+![ผลลัพธ์โมดูล 2](./idf_img/module%202.%202C%20LCD%20Display.png)
 
 **ซอร์สโค้ดหลัก (main/main.c) โมดูล 2 :**
 ```c
@@ -160,7 +160,7 @@ void app_main(void) {
 
 
 **รูปภาพผลลัพธ์การทำงาน โมดูล 3:**
-![ผลลัพธ์โมดูล 3](./Module%203%20FreeRTOS%20Tasks%20&%20Queues%20+%20Sensors.png)
+![ผลลัพธ์โมดูล 3](./idf_img/Module%203%20FreeRTOS%20Tasks%20&%20Queues%20+%20Sensors.png)
 
 **ซอร์สโค้ดหลัก (main/main.c) โมดูล 3:**
 ```c
@@ -358,7 +358,7 @@ void app_main(void)
 
 
 **รูปภาพผลลัพธ์การทำงาน โมดูล 4:**
-![ผลลัพธ์โมดูล 4](./module%204%20_WiFi_MQTT_Sensor_LCD.png)
+![ผลลัพธ์โมดูล 4](./idf_img/module%204%20_WiFi_MQTT_Sensor_LCD.png)
 
 **ซอร์สโค้ดหลัก (main/main.c) โมดูล 4:**
 ```c
